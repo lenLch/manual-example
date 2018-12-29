@@ -1,0 +1,29 @@
+{
+  "name": "manual-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev --port=6000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "egg": "^2.14.2",
+    "egg-passport": "^2.0.1",
+    "egg-passport-github": "^1.0.0",
+    "egg-redis": "^2.3.0",
+    "egg-sequelize": "^4.2.0",
+    "egg-validate": "^2.0.2",
+    "egg-view-nunjucks": "^2.2.0",
+    "jsonwebtoken": "^8.4.0",
+    "mysql2": "^1.6.4"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.9.0",
+    "egg-mock": "^3.20.1",
+    "sequelize-cli": "^5.4.0"
+  }
+}
